@@ -6,7 +6,7 @@ export default function Footer() {
       <Text>
         Feito com o 🤍 por{' '}
         <Link
-          href="https://https://www.linkedin.com/in/aleanrocha"
+          href="https://www.linkedin.com/in/aleanrocha"
           target="_blank"
         >
           Alean Rocha
