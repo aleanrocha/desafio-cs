@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+# Desafio CS - CRUD de Livros e Autores
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte de um desafio cujo principal objetivo é criar uma aplicação web que permita realizar operações CRUD de livros e autores.
 
-Currently, two official plugins are available:
+## 🛠 Tecnologias e Ferramentas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto foi construído utilizando as seguintes tecnologias e ferramentas:
 
-## Expanding the ESLint configuration
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática.
+- **Styled Components**: Para estilização de componentes utilizando CSS-in-JS.
+- **Zod**: Biblioteca para validação de esquemas.
+- **React Hook Form**: Gerenciamento de formulários de forma simples e eficiente.
+- **Context API**: Para gerenciar o estado global da aplicação.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Como rodar o projeto
 
-- Configure the top-level `parserOptions` property like this:
+Siga os passos abaixo para executar o projeto em sua máquina local:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Pré-requisitos
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Certifique-se de ter as seguintes ferramentas instaladas no ambiente:
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Passo a passo
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone o repositório**
+     ```bash
+     git clone https://github.com/aleanrocha/desafio-cs.git
+     ```
+
+2. **Navegue até o diretório do projeto**
+     ```bash
+     cd desafio-cs
+     ```
+
+3. **Instale as dependências**
+     ```bash
+     npm install
+     ```
+
+4. **Inicie o servidor de desenvolvimento**
+     ```bash
+     npm run dev
+     ```
+
+5. **Abra no navegador**
+   - Após o servidor iniciar, abra seu navegador e acesse: 
+
+***Obrigado por visitar este projeto! Espero que tenha gostado!***
+
+## Licença ⚠️
+
+Esse projeto está sob a licença **MIT**.
+
+
